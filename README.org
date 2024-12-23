@@ -3,11 +3,12 @@
 
 Inspired by [[https://gwern.net/sidenote][gwern]], this javascript file turns HTML footnotes (in practice endnotes) into sidenotes placed conveniently next to their references. I use this through org-mode's [[https://orgmode.org/manual/HTML-Export.html][HTML export]] so I can avoid wacky immersion-breaking HTML or CSS syntax when trying to write, and so that I can use the same org files with minimal modification for LaTeX export to PDF. When read at smaller screen sizes (i.e. mobile) the sidenotes are instead shown as traditional footnotes, with working back-and-forth links. Here are some screenshots from [[https://joarvarndt.se/]]:
 
-#+Caption: A general overview of the appearence of sidenotes
 [[./GeneralText.png]]
+A general overview of the appearence of sidenotes
 
-#+Caption: You can use other formatting within sidenotes, like links or in this case a block quote.
+
 [[./OrgExportBlocks.png]]
+You can use other formatting within sidenotes, like links or in this case a block quote.
 
-#+Caption: On smaller screens you still get regular footnotes, with links back to the text.
 [[./SmallerScreen.png]]
+On smaller screens you still get regular footnotes, with links back to the text.
